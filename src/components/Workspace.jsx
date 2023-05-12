@@ -1,6 +1,9 @@
 import React from "react"
 
 const Workspace = () => {
+  const edit = () => {
+    console.log()
+  }
   return (
     <div className="app-main">
       <div className="app-main-note-edit">
