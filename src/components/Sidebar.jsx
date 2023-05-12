@@ -1,6 +1,10 @@
 import React from "react"
 
 const Sidebar = ({ notes, onAddNote }) => {
+  const edit = () => {
+    console.log()
+  }
+
   return (
     <div className="app-sidebar">
       <div className="app-sidebar-header">
